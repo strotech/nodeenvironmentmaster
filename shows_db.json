@@ -1,0 +1,58 @@
+{
+	"title": "Movies and TV series database",
+	"version": "1.0",
+	"showDetails":
+		[
+			{
+				"name": "Contact",
+				"genre": "SciFi",
+				"lead_actor": "Jodie Foster"				
+			},
+			{
+				"name": "Arrow",
+				"genre": "Supernatural",
+				"lead_actor": "Stephen Amell"				
+			},
+			{
+				"name": "The Green Mile",
+				"genre": "Supernatural",
+				"lead_actor": "Tom Hanks"				
+			},
+			{
+				"name": "Primal Fear",
+				"genre": "Mystery",
+				"lead_actor": "Edward Norton"				
+			},
+			{
+				"name": "Doctor Who",
+				"genre": "SciFi",
+				"lead_actor": "David Tennant"				
+			},
+			{
+				"name": "Prometheus",
+				"genre": "SciFi",
+				"lead_actor": "Noomi Rapace"				
+			},
+			{
+				"name": "Interstellar",
+				"genre": "Mystery",
+				"lead_actor": "Matthew McConaughey"				
+			},
+			{
+				"name": "Arrival",
+				"genre": "SciFi/Mystery",
+				"lead_actor": "Amy Adams"				
+			},
+			{
+				"name": "Source Code",
+				"genre": "SciFi",
+				"lead_actor": "Jake Gyllenhaal"				
+			},
+			{
+				"name": "Predestination",
+				"genre": "Fantasy",
+				"lead_actor": "Ethan Hawke"				
+			}
+			
+		]
+}

@@ -1,0 +1,12 @@
+https://medium.freecodecamp.org/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649
+https://medium.freecodecamp.org/how-to-set-up-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-part-ii-80266790a3ac
+
+mongo "mongodb+srv://cluster0-barww.mongodb.net/test" --username sijils --password "m0ng00$e"
+mongoimport --host Cluster0-shard-0/cluster0-shard-00-00-barww.mongodb.net:27017,cluster0-shard-00-01-barww.mongodb.net:27017,cluster0-shard-00-02-barww.mongodb.net:27017 --ssl -u sijils -p "m0ng00$e" --authenticationDatabase admin  --db shows --collection shows_details --drop --file "C:\Users\Sijil\Desktop\NodeEnvironmentMaster\shows_db.json"
+use shows
+db.shows_collections.find()
+db.shows_details.find({version:"1.0"},{"_id":0})
+db.shows_details.find({'shows.name':"Contact"},{"_id":0,"shows.genre":1})                      returns the genres in the selected document
+db.shows_details.find({'shows.name':"CSI"},{"_id":0,"shows.genre":1})                          returns nothing as there is no doc selected with the specified criteria
+db.shows_details.find({'shows.name':"CSI"},{'shows.$.genre':1,"_id":0})
+db.shows_details.find({'shows.name':"CSI"},{'shows.$':1,"title":2,"version":3})

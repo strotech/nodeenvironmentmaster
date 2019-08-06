@@ -1,0 +1,5 @@
+{ "_id": "5c24fad96fe8c607b7e73814",
+    "title": "Movies and TV series database",
+    "version": "1.0",
+    "shows":
+     [ { "name": "CSI", "genre": "Sci", "lead_actor": "William Petersen" } ] }

@@ -1,0 +1,28 @@
+{
+  "name": "nodeenvironmentmaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-fetch": "^0.7.0",
+    "apollo-server": "^2.3.1",
+    "apollo-server-hapi": "^2.3.1",
+    "browserify": "^16.2.3",
+    "es6-promise": "^4.2.5",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "handlebars": "^4.0.12",
+    "hapi": "^17.8.1",
+    "inert": "^5.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.1",
+    "nodemon": "^1.18.9",
+    "vision": "^5.4.4"
+  }
+}

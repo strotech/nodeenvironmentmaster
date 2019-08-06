@@ -1,0 +1,22 @@
+----------------------------------
+mutation myMutation{
+  createShow(showTypeInputDetails:{title:"Movies and TV series database",version:"1.1"},
+			 showTypeInputDetailsExtended:{name:"Daredevil",genre:"Action",lead_actor:"Charlie Cox"})
+}
+---------------------------------
+query{
+  getShowByName(showSchemaName:"CSI"){
+    _id
+    title
+    showDetails{      
+      name
+      genre
+      lead_actor
+    }
+  }
+}
+---------------------------------
+{
+  testFunction
+}
+---------------------------------
